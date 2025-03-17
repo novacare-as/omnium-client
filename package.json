@@ -1,0 +1,22 @@
+{
+  "name": "omnium-client",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "openapi --input https://apitest.omnium.no/docs/oms/docs.json --output dist --postfixServices Resource --useOptions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novacare-as/omnium-client.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/novacare-as/omnium-client/issues"
+  },
+  "homepage": "https://github.com/novacare-as/omnium-client#readme",
+  "devDependencies": {
+    "openapi-typescript-codegen": "^0.29.0"
+  }
+}
