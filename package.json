@@ -1,8 +1,8 @@
 {
-  "name": "omnium-client",
-  "version": "0.0.1",
+  "name": "@novacare-as/omnium-client",
+  "version": "0.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.ts",
   "scripts": {
     "generate": "openapi --input https://apitest.omnium.no/docs/oms/docs.json --output dist --postfixServices Resource --useOptions"
   },
