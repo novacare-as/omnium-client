@@ -1,6 +1,6 @@
 {
   "name": "@novacare-as/omnium-client",
-  "version": "0.0.2",
+  "version": "2025.13.0",
   "description": "",
   "main": "dist/index.ts",
   "scripts": {
